@@ -24,7 +24,9 @@ class App extends Component {
      name,
      email,
      message,
-    }).then(
+    })
+    .then(
+      console.log('setstate'),
       this.setState({
         name: '',
         email: '',
